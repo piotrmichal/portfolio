@@ -1,0 +1,63 @@
+#projects {
+	text-align: center;
+
+	h2 {
+	padding-top: 120px;
+
+	}
+
+	.latest {
+		display: flex;
+		justify-content: center;
+
+		.project-box {
+			margin: 30px;
+			padding: 6px;
+			border: 1px solid #CCC;
+			border-radius: 5px;
+			position: relative;
+			height: 300px;
+			
+			.overlay {
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: $overlay;
+				border-radius: 5px;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				transition: all 400ms;
+
+				&:hover {
+					opacity: 1;
+				}
+
+				a {
+					margin: 12px;
+					padding: 11px 9px;
+					background-color: $blue;
+					border-radius: 50%;
+					font-size: 30px;
+
+					&:hover {
+						color: $darkGray;
+					}
+				}
+			}
+		}
+
+	}
+
+	p > a {
+		color: $blue;
+		font-weight: bold;
+
+		&:hover {
+			color: $darkGray;
+		}
+	}
+}

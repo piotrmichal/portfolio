@@ -1,0 +1,36 @@
+#about {
+	position: relative;
+	top: -80px;
+	@include skewY(3);
+	background-color: #FFF;
+
+	.info {
+		width: 60%;
+		min-height: 300px;
+
+		h2 {
+			text-align: center;
+			padding-top: 80px;
+			padding-bottom: 20px;
+		}
+
+	}
+
+	.wrapper {
+		display: flex;
+		@include skewY(-3);
+		padding: 0 100px;
+		box-sizing: border-box;
+		color: $darkGray;
+
+		img {
+			width: 250px;
+			height: 300px;
+			margin-top: 170px;
+			margin-left: 10%;
+			padding: 6px;
+			border: 1px solid #CCC;
+			border-radius: 5px;
+		}
+	}
+}

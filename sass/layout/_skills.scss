@@ -1,0 +1,60 @@
+#skills {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	top: 80px;
+	@include skewY(-3);
+	border-top: $border;
+	border-bottom: $border;
+	box-shadow: $insetShadow;
+	background-color: $blue;
+	color: #FFF;
+	box-sizing: border-box;
+
+	.technologies {
+		text-align: center;
+		width: 50%;
+		flex-wrap: wrap;
+		@include skewY(3);
+		padding-top: 20px;
+		padding-left: 40px;
+
+		img.first-line {
+			margin: 30px 20px;
+		}
+
+		img.second-line {
+			margin: 30px;
+		}
+	}
+
+	.profile {
+		height: 0;
+		border-right: 0px solid transparent;
+		border-left: 80px solid transparent;
+		border-bottom: 700px solid #303030;
+		width: 50%;
+		text-align: center;
+
+		h2 {
+			margin-top: 77px;
+			@include skewY(3);
+		}
+
+		.icon-github-circled::before {
+			margin: 0 auto;
+		}
+
+		a {
+			display: inline-block;
+			@include skewY(3);
+			margin-top: 70px;
+			font-size: 300px;
+			transition: all 500ms;
+
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+}

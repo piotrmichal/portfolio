@@ -1,0 +1,27 @@
+#contact {
+	text-align: center;
+	height: 600px;
+	box-shadow: $insetShadow;
+	background-color: $blue;
+	color: #FFF;
+
+	h2 {
+		padding-top: 80px;
+	}
+
+	.contact-way {
+		display: flex;
+		justify-content: center;
+		margin: 100px;
+
+		.icon {
+			width: 207px;
+			margin: 0 30px;
+
+			a {
+				font-size: 80px;
+			}
+		}
+	}
+
+}
