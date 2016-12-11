@@ -249,7 +249,7 @@ header {
   transform: skewY(3deg);
   background-color: #FFF; }
   #about .info {
-    width: 60%;
+    width: 65%;
     min-height: 300px; }
     #about .info h2 {
       text-align: center;
