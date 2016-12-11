@@ -3,7 +3,7 @@ $(function() {
 	var $nav = $('nav');
 	var $link = $('li a');
 	var $more = $('#banner a');
-	var $menuIcon = $('.chamburger');
+	var $menuIcon = $('.hamburger');
 	var $window = $(window);
 	var navHeight = $nav.outerHeight();
 

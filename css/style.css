@@ -34,7 +34,7 @@ footer {
   display: flex;
   clear: both; }
 
-.chamburger {
+.hamburger {
   display: none; }
 
 @media screen and (max-width: 1180px) {
@@ -93,12 +93,12 @@ footer {
     #projects.wrapper div.latest .project-box {
       margin: 30px auto; } }
 @media screen and (max-width: 678px) {
-  header#home nav .chamburger {
+  header#home nav .hamburger {
     display: block;
     float: right;
     margin-top: 12px;
     margin-right: 30px; }
-    header#home nav .chamburger:hover {
+    header#home nav .hamburger:hover {
       cursor: pointer; }
   header#home nav ul {
     opacity: 0;
