@@ -1,5 +1,5 @@
 .wrapper {
-	max-width: 1700px;
+	max-width: 1705px;
 	margin: 0 auto;
 }
 
@@ -24,21 +24,27 @@ footer {
 	display: none;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1345px) {
 	#skills {
 		div.technologies {
 			width: 65%;
 
 			img.first-line {
-				margin: 20px;
+				margin: 10px 30px;
 				width: 100px;
 				height: 130px;
 			}
 
 			img.second-line {
-				margin: 20px;
+				margin: 10px 30px;
 				width: 90px;
 				height: 90px;
+			}
+
+			img.third-line {
+				margin: 10px 30px;
+				width: 70px;
+				height: 130px;
 			}
 		}
 
@@ -47,15 +53,32 @@ footer {
 
 			a {
 				font-size: 150px;
+				margin-top: 40%;
+			}
+		}
+	}
+
+	#projects.wrapper {
+		h2 {
+			font-size: 20px;
+			padding-top: 100px;
+		}
+
+		div.latest {
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.project-box {
+				margin: 30px;
 			}
 		}
 	}
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 910px) {
 	header {
 		div#banner {
-			padding: 80px 40px;
+			padding: 120px 40px;
 
 			p {
 				font-size: 18px;
@@ -70,14 +93,30 @@ footer {
 			}
 
 			a {
-				margin: 100px 50px;
+				margin: 80px 50px;
 			}
 		}
 	}
 
 	#about {
+
+		div.info {
+			width: 100%;
+			margin: 0 auto;
+
+			p {
+				font-size: 16px;
+			}
+		}
+
 		div.wrapper {
-			padding: 0 50px;
+			flex-direction: column;
+
+			img {
+				width: 220px;
+				height: 270px;
+				margin: auto;
+			}
 		}
 	}
 
@@ -87,7 +126,7 @@ footer {
 
 			img.first-line {
 				margin: 20px;
-				width: 80px;
+				width: 70px;
 				height: 100px;
 			}
 
@@ -95,6 +134,12 @@ footer {
 				margin: 20px;
 				width: 70px;
 				height: 70px;
+			}
+
+			img.third-line {
+				margin: 10px 30px;
+				width: 60px;
+				height: 110px;
 			}
 		}
 
@@ -106,25 +151,24 @@ footer {
 			}
 
 			a {
-				font-size: 150px;
+				margin-top: 70%;
 			}
 		}
 	}
 
 	#projects.wrapper {
 		h2 {
-			font-size: 20px;
-			padding-top: 100px;
-		}
+		 	padding-top: 100px;
+		 }
 
-		div.latest {
-			flex-direction: column;
-			justify-content: center;
+		div.project-box {
+		 	height: 200px;
 
-			.project-box {
-				margin: 30px auto;
-			}
-		}
+		 	img {
+		 		width: 250px;
+		 		height: 200px;
+		 	}
+		 }
 	}
 }
 
@@ -166,7 +210,7 @@ footer {
 		}
 
 		#banner {
-			padding-top: 50px;
+			padding-top: 100px;
 
 			p {
 				font-size: 14px;
@@ -182,6 +226,7 @@ footer {
 
 			a {
 				font-size: 14px;
+				margin: 80px 50px;
 			}
 		}
 
@@ -189,27 +234,19 @@ footer {
 
 	#about {
 
-		div.info {
-			width: 100%;
-			margin: 0 auto;
-
-			h2 {
-				padding-top: 20px;
-				font-size: 20px;
-			}
-
-			p {
-				font-size: 14px;
-			}
-		}
-
 		div.wrapper {
-			flex-direction: column;
+			padding: 0 30px;
 
-			img {
-				width: 200px;
-				height: 250px;
-				margin: auto;
+			div.info {
+
+				h2 {
+					padding-top: 20px;
+					font-size: 20px;
+				}
+
+				p {
+					font-size: 14px;
+				}
 			}
 		}
 	}
@@ -250,15 +287,6 @@ footer {
 	#projects.wrapper {
 		h2 {
 		 	padding-top: 20px;
-		 }
-
-		div.project-box {
-		 	height: 200px;
-
-		 	img {
-		 		width: 250px;
-		 		height: 200px;
-		 	}
 		 }
 	}
 
