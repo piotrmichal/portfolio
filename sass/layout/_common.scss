@@ -52,7 +52,7 @@ footer {
 			width: 35%;
 
 			a {
-				font-size: 150px;
+				font-size: 180px;
 				margin-top: 40%;
 			}
 		}
@@ -120,9 +120,13 @@ footer {
 		}
 	}
 
-	#skills {
+	section#skills {
+		display: block;
+
 		div.technologies {
-			width: 70%;
+			width: 90%;
+			padding: 0;
+			margin: 30px auto;
 
 			img.first-line {
 				margin: 20px;
@@ -144,14 +148,20 @@ footer {
 		}
 
 		div.profile {
-			width: 30%;
+			width: 100%;
+			border: none;
+			min-height: 380px;
+			background-color: #303030;
+			padding: 5px;
+			box-sizing: border-box;
 
 			h2 {
-				margin-top: 63px;
+				margin-top: 30px;
 			}
 
 			a {
-				margin-top: 70%;
+				font-size: 180px;
+				margin-top: 20px;
 			}
 		}
 	}
@@ -264,23 +274,6 @@ footer {
 			margin: 0 auto;
 			padding: 20px 0;
 
-		}
-
-		div.profile {
-			width: 100%;
-			border: none;
-			min-height: 400px;
-			background-color: #303030;
-			padding: 5px;
-			box-sizing: border-box;
-
-			h2 {
-				margin-top: 30px;
-			}
-
-			a {
-				margin-top: 50px;
-			}
 		}
 	}
 

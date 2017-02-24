@@ -55,7 +55,7 @@ footer {
   #skills div.profile {
     width: 35%; }
     #skills div.profile a {
-      font-size: 150px;
+      font-size: 180px;
       margin-top: 40%; }
 
   #projects.wrapper h2 {
@@ -90,26 +90,36 @@ footer {
       height: 270px;
       margin: auto; }
 
-  #skills div.technologies {
-    width: 70%; }
-    #skills div.technologies img.first-line {
-      margin: 20px;
-      width: 70px;
-      height: 100px; }
-    #skills div.technologies img.second-line {
-      margin: 20px;
-      width: 70px;
-      height: 70px; }
-    #skills div.technologies img.third-line {
-      margin: 10px 30px;
-      width: 60px;
-      height: 110px; }
-  #skills div.profile {
-    width: 30%; }
-    #skills div.profile h2 {
-      margin-top: 63px; }
-    #skills div.profile a {
-      margin-top: 70%; }
+  section#skills {
+    display: block; }
+    section#skills div.technologies {
+      width: 90%;
+      padding: 0;
+      margin: 30px auto; }
+      section#skills div.technologies img.first-line {
+        margin: 20px;
+        width: 70px;
+        height: 100px; }
+      section#skills div.technologies img.second-line {
+        margin: 20px;
+        width: 70px;
+        height: 70px; }
+      section#skills div.technologies img.third-line {
+        margin: 10px 30px;
+        width: 60px;
+        height: 110px; }
+    section#skills div.profile {
+      width: 100%;
+      border: none;
+      min-height: 380px;
+      background-color: #303030;
+      padding: 5px;
+      box-sizing: border-box; }
+      section#skills div.profile h2 {
+        margin-top: 30px; }
+      section#skills div.profile a {
+        font-size: 180px;
+        margin-top: 20px; }
 
   #projects.wrapper h2 {
     padding-top: 100px; }
@@ -170,17 +180,6 @@ footer {
       width: 90%;
       margin: 0 auto;
       padding: 20px 0; }
-    #skills.wrapper div.profile {
-      width: 100%;
-      border: none;
-      min-height: 400px;
-      background-color: #303030;
-      padding: 5px;
-      box-sizing: border-box; }
-      #skills.wrapper div.profile h2 {
-        margin-top: 30px; }
-      #skills.wrapper div.profile a {
-        margin-top: 50px; }
 
   #projects.wrapper h2 {
     padding-top: 20px; }
@@ -249,11 +248,12 @@ header {
       display: inline-block;
       margin: 50px;
       padding: 10px 25px;
-      border-radius: 5px;
-      background: linear-gradient(#007AF3, #222);
+      border-radius: 3px;
+      background: transparent;
+      border: 2px solid #FFF;
       font-weight: bold; }
       header #banner a:hover {
-        background: linear-gradient(#1B8EFD, #222); }
+        background: rgba(255, 255, 255, 0.2); }
 
 #about {
   position: relative;
@@ -405,11 +405,11 @@ header {
   #contact .contact-way {
     display: flex;
     justify-content: center;
-    margin: 100px; }
+    margin: 100px auto; }
     #contact .contact-way .icon {
       width: 207px;
       margin: 0 30px; }
       #contact .contact-way .icon a {
-        font-size: 80px; }
+        font-size: 70px; }
 
 /*# sourceMappingURL=style.css.map */
